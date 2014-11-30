@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+body {
+
+	font-family: "Open Sans", serif;
+	background: url(../images/sno_ani02.gif);
+	background-attachment: fixed;
+	background-color: red;
+	line-height: 1.5;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+header {
+	background: white;
+	text-align: center;
+	padding: 20px;
+	/*width: 1000px;
+	margin: 0 auto;*/
+	height: 100px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+h1 img {
+	height: 60px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+p {
+	margin: 0 auto;
+	padding: 20px;
+	width: 50%;
+}
+
+p.poem {
+	padding: 10px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+section {
+	/*background: white;*/
+	padding: 20px;
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+section img {
+	height: 525px;
+	width: 100%;
+}
+
+section.content {
+	background: white;
+}
+
+@media screen and (max-width:1000px) {
+	section {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width:800px) {
+	header {
+		position: static;
+		height: 50px;
+		padding: 10px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	h1 img {
+		height: 30px;
+	}
+	section {
+		width: 90%;
+		height: auto;
+	}
+
+	section.content{
+		width: 90%;
+		height: auto;
+	}
+
+	section img {
+		height: auto;
+	}
+
+	p {
+		width: auto;
+	}
+}
